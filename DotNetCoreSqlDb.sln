@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreSqlDb", "DotNetCoreSqlDb\DotNetCoreSqlDb.csproj", "{D0D8EFD9-F2E1-4691-9B50-55047E7038E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{C2680815-0ADF-4DEF-B95B-41E4A814EB9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D0D8EFD9-F2E1-4691-9B50-55047E7038E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0D8EFD9-F2E1-4691-9B50-55047E7038E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0D8EFD9-F2E1-4691-9B50-55047E7038E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2680815-0ADF-4DEF-B95B-41E4A814EB9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2680815-0ADF-4DEF-B95B-41E4A814EB9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2680815-0ADF-4DEF-B95B-41E4A814EB9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2680815-0ADF-4DEF-B95B-41E4A814EB9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
