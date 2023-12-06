@@ -19,3 +19,4 @@ module webApp 'webapp.bicep' = {
     webAppName: webAppName
   }
 }
+
