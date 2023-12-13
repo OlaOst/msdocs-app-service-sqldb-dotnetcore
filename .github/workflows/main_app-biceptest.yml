@@ -59,6 +59,7 @@ jobs:
         uses: azure/arm-deploy@v1
         with:
             scope: subscription
+            region: eastus
             template: ./Deploy/deploymentTemplate.bicep
             parameters: ./Deploy/deploymentParameters.json
 
