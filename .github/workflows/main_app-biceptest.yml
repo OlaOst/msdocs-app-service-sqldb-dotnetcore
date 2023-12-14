@@ -54,14 +54,14 @@ jobs:
         with:
           creds: ${{ secrets.AZURE_RBAC_CREDENTIALS }}
 
-      - name: Run Bicep provisioning template
+      - name: Deploy Bicep provisioning template
         id: provision-bicep
         uses: azure/arm-deploy@v1
         with:
             scope: subscription
             region: eastus
-            template: ./Deploy/deploymentTemplate.bicep
-            parameters: ./Deploy/deploymentParameters.json
+            template: ./myapp/Deploy/deploymentTemplate.bicep
+            parameters: ./myapp/Deploy/deploymentParameters.json
 
       - name: Download artifact from build job
         uses: actions/download-artifact@v3
