@@ -9,7 +9,7 @@
     <Content Include="deploymentTemplate.bicep">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="web.bicep">
+    <Content Include="webapp.bicep">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="sql.bicep">
