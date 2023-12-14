@@ -60,8 +60,8 @@ jobs:
         with:
             scope: subscription
             region: eastus
-            template: ../Deploy/deploymentTemplate.bicep
-            parameters: ../Deploy/deploymentParameters.json
+            template: ./deploymentTemplate.bicep
+            parameters: ./deploymentParameters.json
 
       - name: Download artifact from build job
         uses: actions/download-artifact@v3
