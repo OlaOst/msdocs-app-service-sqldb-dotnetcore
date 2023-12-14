@@ -65,8 +65,8 @@ jobs:
         with:
             scope: subscription
             region: eastus
-            template: ./Deploy/deploymentTemplate.bicep
-            parameters: ./Deploy/deploymentParameters.json
+            template: ./deploymentTemplate.bicep
+            parameters: ./deploymentParameters.json
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
