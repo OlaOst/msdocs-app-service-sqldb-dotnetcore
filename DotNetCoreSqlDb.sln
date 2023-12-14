@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreSqlDb", "DotNetCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{C2680815-0ADF-4DEF-B95B-41E4A814EB9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deploy", "Deploy\Deploy.csproj", "{017B0C12-CAFE-44F6-8CA7-CC002D565D62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C2680815-0ADF-4DEF-B95B-41E4A814EB9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2680815-0ADF-4DEF-B95B-41E4A814EB9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2680815-0ADF-4DEF-B95B-41E4A814EB9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{017B0C12-CAFE-44F6-8CA7-CC002D565D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{017B0C12-CAFE-44F6-8CA7-CC002D565D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{017B0C12-CAFE-44F6-8CA7-CC002D565D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{017B0C12-CAFE-44F6-8CA7-CC002D565D62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
