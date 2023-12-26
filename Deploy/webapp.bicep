@@ -35,7 +35,7 @@ resource sourceControls 'Microsoft.Web/sites/sourcecontrols@2022-09-01' = {
     branch: repositoryBranch
     isGitHubAction: true
     gitHubActionConfiguration: {
-      generateWorkflowFile: true
+      generateWorkflowFile: false
       isLinux: true
       codeConfiguration: {
         runtimeStack: '.NET'
